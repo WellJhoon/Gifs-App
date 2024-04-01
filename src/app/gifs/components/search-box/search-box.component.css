@@ -1,0 +1,21 @@
+.Buscar {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    border-radius: 0; 
+    border-color: #ced4da; 
+}
+
+.form-control::placeholder {
+    color: #6c757d; 
+}
+
+@media (max-width: 576px) {
+    .form-control {
+        width: 100%; 
+    }
+}
