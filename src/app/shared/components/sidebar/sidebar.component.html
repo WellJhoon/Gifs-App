@@ -6,6 +6,8 @@
     <hr class="text-light">
 
     <div class="list-group list-reset">
-        <button class="list-group-item list-group-item-action" routerLink="/">Valorant</button>
+        <button *ngFor="let tag of tags" class="list-group-item list-group-item-action" routerLink="/">
+            {{ tag | titlecase}}
+        </button>
     </div>
 </div>
